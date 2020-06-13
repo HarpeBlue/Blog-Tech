@@ -39,3 +39,29 @@ a{
     justify-self: end;
     margin-right: 50px;
 }
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90px;
+    align-items: center;
+}
+
+.nav .nav_logo--container img{
+    width: 240px;
+    margin-top: 10px;
+}
+
+.nav .nav_logo--container{
+    margin-left: 50px;
+}
+
+.nav .profile--link{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.nav .profile--link a{
+    border-bottom: black 1px solid;
+}
