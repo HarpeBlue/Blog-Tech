@@ -75,7 +75,7 @@ a{
     border-bottom: black 1px solid;
 }
 
-/* sección principal */
+/* sección principal del home*/
 .home_main{
     background-image: url('../assets/images/Cover.png');
     height: 100%;
@@ -192,4 +192,55 @@ width: 85%;
 .footer p{
     color: white;
     margin-top: 30px;
+}
+
+/* Sección principal de la página de cada blog */
+.blogpost_img--container{
+    padding: 0 50px 40px;
+}
+
+.blogpost_img--container img{
+    width: 100%;
+}
+
+.blogpost_main--container{
+    padding: 0 50px 40px;
+}
+
+.blogpost_main--container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.blogpost_main--container div h1{
+    font-size: 35px;
+}
+
+/* Sección de contacto */
+.contact_main--container{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: #e6e9ed;
+    padding-bottom: 50px;
+}
+
+.contact_main--container div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact_main--container div a{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.contact_main--container .contact_left, .contact_right{
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact_main--container img{
+    width: 100px;
 }
